@@ -36,3 +36,18 @@
     top: 55%;
     right: 40%;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+    float: right;
+    padding: 1px;
+}
+li p{
+    font-size: 13px;
+    padding: 9px 5px 0px 5px;
+    font-family: Arial;
+}
+
