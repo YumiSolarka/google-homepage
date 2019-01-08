@@ -1,0 +1,45 @@
+.image img{
+    position: absolute;
+    top: 30%;
+    right: 41%;
+}
+.bar input{
+    height: 40px;
+    width: 36%; 
+    border-radius: 0;
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 4px 1px gainsboro;
+    bottom: 20px;
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Arial;
+}
+.left input{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    height: 35px;
+    width: 9.5%; 
+    border: 0;
+    background-color: rgba(231, 231, 231, 0.671);
+    color: rgb(112, 112, 112);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+}
+.right input{
+    position: absolute;
+    top: 55%;
+    right: 40%;
+    height: 35px;
+    width: 9.5%; 
+    border: 0;
+    background-color: rgba(231, 231, 231, 0.671);
+    color: rgb(112, 112, 112);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+}
