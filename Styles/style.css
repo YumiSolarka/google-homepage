@@ -43,7 +43,7 @@ ul {
     margin: 0;
     padding: 0;
   }
-li{
+.top li{
     float: right;
     padding: 1px;
 }
@@ -64,4 +64,33 @@ ul p:hover {
     top: 46%;
     left: 67.5%;
     height: 4%;
+}
+.top-bar{
+    height: 50%;
+    background-color: gainsboro;
+    border-top: 1px solid gray;
+}
+.bot-bar{
+    background-color: gainsboro;
+    height: 50%;
+    border-top: 1px solid gray;
+}
+.left-bot li{
+    float: left;
+}
+.right-bot li{
+    float: right;
+}
+.bottom{
+    height: 10%;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.top-bar p{
+    padding-left: 20px;
 }
