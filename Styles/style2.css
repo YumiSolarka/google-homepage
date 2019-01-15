@@ -32,15 +32,22 @@ ul p:hover {
 
 
 .center{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    padding: 0;
-    width: 50%;
-    text-align: center
+    margin: auto;
+    width: 37%;
+    height: 20%;
+    text-align: center;
+
 }
 .bar input{
     height: 40px;
-    width: 70%;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 4px 1px gainsboro;
+    padding: 0 45px 0 20px;
 }
-
+.bar img{
+    position: absolute;
+    right: 28%;
+    top: 29.8%;
+}
