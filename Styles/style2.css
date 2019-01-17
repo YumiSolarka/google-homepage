@@ -23,6 +23,7 @@ ul {
     padding: 0;
 }
 li p{
+    padding-top: 8px;
     font-size: 13px;
     display: block;
 }
@@ -30,16 +31,21 @@ ul p:hover {
     text-decoration: underline;
 }
 
+.image{
+    padding-bottom: 5%;
+}
 
 .center{
     margin: auto;
-    width: 37%;
+    margin-top: 12%;
+    width: 45%;
     height: 20%;
     text-align: center;
 
 }
 .bar input{
-    height: 40px;
+    box-sizing: border-box;
+    height: 43px;
     width: 100%;
     border-radius: 0;
     border: 1px solid gainsboro;
@@ -48,6 +54,6 @@ ul p:hover {
 }
 .bar img{
     position: absolute;
-    right: 28%;
-    top: 29.8%;
+    right: 28.5%;
+    top: 54%;
 }
