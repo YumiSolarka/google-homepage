@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <meta charset=utf-8>
 <html>
-    <head>
+    <head>  
         <title>Google</title>
         <link href="Styles/style.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="./Images/Logo.ico" />
     </head>
     <body>
+        <div class="top">
+            <ul>
+                <a href="#" onclick="return false;"><li><img src="./Images/topbar.png" alt="top bar icons"></li></a>
+                <a href="#" onclick="return false;"><li><p>Grafika</p></li></a>
+                <a href="#" onclick="return false;"><li><p>Gmail</p></li></a>
+            </ul>
+        </div>
         <div class="center">
             <div class="image">
                 <a href="#" onclick="return false;"><img src="./Images/googlelogo_color_272x92dp.png" alt="Google logo"></a>
             </div>
             <div class="bar">
-                <form>
-                    <input name="search">
-                </form>
-                <a href="#" onclick="return false;"><img src="Images/Keyboard_no_background.png" alt="Keyboard drawing"></a>
+                <input name="search">
+                <a href="#" onclick="return false;"><img src="Images/Keyboard_no_background.png" alt="Keyboard drawing" width=23></a>
             </div>
             <div class="buttons">
                 <div class="left">
@@ -26,31 +31,23 @@
                 </div>
             </div>
         </div>
-        <div class="top">
-            <ul>
-                <a href="#" onclick="return false;"><li><img src="./Images/topbar.png" alt="top bar icons"></li></a>
-                <a href="#" onclick="return false;"><li><p>Grafika</p></li></a>
-                <a href="#" onclick="return false;"><li><p>Gmail</p></li></a>
-            </ul>
-        </div>
         <div class="bottom">
-            <div class="top-bar">
+            <div class="top-header">
                 <p>Polska</p>
             </div>
-            <div class="bot-bar">
-                <div class="left-bot">
-                    <ul>
-                        <a href="#" onclick="return false;"><li><p>Reklamuj się</p></li></a>
-                        <a href="#" onclick="return false;"><li><p>Dla firm</p></li></a>
-                        <a href="#" onclick="return false;"><li><p>O nas</p></li></a>
-                    </ul>
-                </div>
-                <div class="right-bot">
+            <div class="bottom-header">
+                <ul id="bot-left">
+                    <a href="#" onclick="return false;"><li><p>Reklamuj się</p></li></a>
+                    <a href="#" onclick="return false;"><li><p>Dla firm</p></li></a>
+                    <a href="#" onclick="return false;"><li><p>O nas</p></li></a>
+                </ul>
+                <ul id="bot-right">
                     <a href="#" onclick="return false;"><li><p>Prywatność</p></li></a>
                     <a href="#" onclick="return false;"><li><p>Warunki</p></li></a>
                     <a href="#" onclick="return false;"><li><p>Ustawienia</p></li></a>
-                </div>
-            </div>  
+                </ul>
+
+            </div>
         </div>
     </body>
 </html>
