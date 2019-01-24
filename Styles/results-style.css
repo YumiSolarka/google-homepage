@@ -5,11 +5,12 @@ p, input{
 body{
     margin:0;
     padding:0;
+    width: 100%;
     height: 100%;
 }
 .top{
     width: 100%;
-    height: 80px;
+    height: 45px;
     margin-top: 20px;
 }
 .top li{
@@ -24,7 +25,7 @@ body{
 .top form{
     width: 40%;
     margin-left: 25px;
-    height: 58%;
+    height: 100%;
     border: 1px solid gainsboro;
     border-radius: 25px; 
 }
@@ -44,4 +45,33 @@ body{
 }
 .logo img{
     padding: 10px 0px 0px 30px;
+}
+.menu{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.671);
+}
+.menu li{
+    float: left;
+    display: block;
+    list-style-type: none;
+    margin: 1px 0px 0px 0px;
+    font-size: 13px;
+    padding: 0px 15px;
+}
+.menu ul{
+    margin-left: 100px;
+}
+li p{
+    color: rgb(112, 112, 112);
+}
+li p:hover{
+    color: black;
+}
+.active p{
+    color: rgb(0, 119, 255) !important;
+}
+.active li{
+    font-weight: bold;
+    border-bottom: 3px solid rgb(0, 119, 255);
 }
