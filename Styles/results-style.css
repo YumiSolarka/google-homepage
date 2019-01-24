@@ -75,3 +75,32 @@ li p:hover{
     font-weight: bold;
     border-bottom: 3px solid rgb(0, 119, 255);
 }
+.main{
+    width: 39%;
+    margin-left: 10%;
+    padding: 0;
+}
+.results_number p{
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+}
+.main a{
+    text-decoration: none;
+}
+.name p{
+    color: rgb(0, 0, 189);
+}
+.link p{
+    color: green;
+    width: 80%;
+}
+.content p{
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+}
+.link{
+    height: 16px;
+}
+.link img{
+    float: right;
+}
