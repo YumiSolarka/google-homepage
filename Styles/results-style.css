@@ -50,6 +50,7 @@ body{
     width: 100%;
     height: 45px;
     border-bottom: 1px solid rgba(218, 218, 218, 0.671);
+    padding-left: 45px;
 }
 .menu li{
     float: left;
@@ -80,19 +81,34 @@ li p:hover{
     margin-left: 10%;
     padding: 0;
 }
+.main p{
+    margin: 0;
+}
 .results_number p{
     font-size: 13px;
     color: rgb(112, 112, 112);
+    margin-top: 15px;
+    margin-bottom: 23px;
 }
 .main a{
     text-decoration: none;
 }
+.name{
+    margin-bottom: 4px;
+}
 .name p{
     color: rgb(0, 0, 189);
+    font-size: 18px;
 }
 .link p{
+    float: left;
     color: green;
-    width: 80%;
+    width: 100%;
+    font-size: 14px;
+}
+.result{
+    padding-left: 8px;
+    margin-bottom: 30px;
 }
 .content p{
     font-size: 13px;
@@ -100,7 +116,76 @@ li p:hover{
 }
 .link{
     height: 16px;
+    display: inline-flex;
 }
 .link img{
     float: right;
+}
+.other-results{
+    width: 500px;
+    padding-left: 8px;
+    margin-top: 50px; 
+}
+ul{
+    padding: 0;
+}
+#podobne{
+    font-size: 18px;
+}
+.other-results li{
+    display: block;
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: 15px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin-right: 130px;
+}
+.left p, .right p{
+    color: rgb(0, 0, 189);
+}
+.bottom{
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(231, 231, 231, 0.671); 
+}
+.bottom-header{
+    width: 100%;
+    height: 39px;
+    border-top: 1px solid rgba(218, 218, 218, 0.671);
+}
+.top-header{
+    width: 100%;
+    height: 39px;
+    border-top: 1px solid rgba(218, 218, 218, 0.671);
+}
+.top-header p{
+    float: left;
+}
+#bot-left li{
+    float: left;
+}
+#bot-right li{
+    float: right;
+}
+.bottom li{
+    list-style-type: none;
+}
+.bottom-header p{
+    padding: 0px 6px 10px 24px;
+}
+.top-header p{
+    padding-left: 24px;
+    margin: 0;
+    padding-top: 10px;
+}
+.bottom p{
+    color: rgba(59, 59, 59, 0.671);
+    text-align: center;
 }
