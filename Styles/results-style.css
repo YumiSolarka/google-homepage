@@ -163,29 +163,27 @@ ul{
 .top-header{
     width: 100%;
     height: 39px;
-    border-top: 1px solid rgba(218, 218, 218, 0.671);
+    border-top: 1px solid rgba(218, 218, 218, 0.671)
 }
 .top-header p{
-    float: left;
-}
-#bot-left li{
-    float: left;
-}
-#bot-right li{
-    float: right;
+    padding-left: 150px;
+
 }
 .bottom li{
     list-style-type: none;
 }
+.bottom-header li{
+    float: left;
+    color: rgba(59, 59, 59, 0.671);
+    padding: 0px 6px 10px 24px;
+    font-size: 13px;
+}
 .bottom-header p{
     padding: 0px 6px 10px 24px;
 }
-.top-header p{
-    padding-left: 24px;
-    margin: 0;
-    padding-top: 10px;
+.bottom-header ul{
+    margin-left: 150px;
 }
 .bottom p{
     color: rgba(59, 59, 59, 0.671);
-    text-align: center;
 }
