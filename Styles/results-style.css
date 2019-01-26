@@ -2,6 +2,9 @@ p, input{
     font-family: Arial;
     color: black;
 }
+a:hover{
+    text-decoration: underline;
+}
 body{
     margin:0;
     padding:0;
@@ -138,15 +141,20 @@ ul{
     padding-top: 9px;
     font-size: 15px;
 }
-.left{
-    float: left;
-}
-.right{
-    float: right;
-    margin-right: 130px;
-}
-.left p, .right p{
+.other-results table p{
     color: rgb(0, 0, 189);
+    font-size: 14px;
+}
+.other-results table p:hover{
+    text-decoration: underline;
+}
+.other-results table{
+    margin-top: 20px;
+    width: 430px;
+    
+}
+.other-results tr{
+    height: 25px;
 }
 .bottom{
     overflow: hidden;
@@ -186,4 +194,11 @@ ul{
 }
 .bottom p{
     color: rgba(59, 59, 59, 0.671);
+}
+.page-nav{
+    margin-left: 150px;
+    padding-top: 30px;
+}
+.oes{
+    padding-top: 8px;
 }
