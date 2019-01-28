@@ -49,8 +49,14 @@ ul p:hover {
     width: 100%;
     border-radius: 0;
     border: 1px solid gainsboro;
-    box-shadow: 2px 2px 4px 1px gainsboro;
+    box-shadow: 0.5px 0.5px 4px 0.1px gainsboro;
     padding: 0 45px 0 20px;
+}
+.bar input:hover{
+    box-shadow: 2px 2px 4px 1px gainsboro;
+}
+.bar input:focus{
+    box-shadow: 2px 2px 4px 1px gainsboro;
 }
 
 .bar img{
@@ -61,7 +67,9 @@ ul p:hover {
 .buttons{
     padding: 0 28%;
 }
-
+.buttons a{
+    text-decoration: none;
+}
 .buttons input{
     height: 30%;
     width: 100%; 
